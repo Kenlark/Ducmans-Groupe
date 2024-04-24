@@ -1,13 +1,44 @@
-.carousel-container {
+.carousel {
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    overflow: hidden; /* masque le contenu depassant de toute la zone du carousel */
 }
 
-.carousel {
-    display: flex; /* pour slides horizontal */
-    transition: transform 0.5s ease; /* Anim de transition lors de changement de slide */
+.ul-accueil {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transition: transform 0.5s ease;
 }
 
 .slide {
-    flex: 0 0 100%; /* slides occupent toute la largeur du carousel */
+    flex: 0 0 100%;
+}
+
+.image-header {
+    width: 100%;
+    height: 60%;
+}
+
+.btn-carousel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#prev {
+    top: 28%;
+    left: 13%;
+}
+
+#next {
+    top: 28%;
+    right: 0;
 }
