@@ -1,0 +1,17 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgb(27, 27, 27);
+    color: rgb(179, 179, 179);
+    width: 13%;
+    height: 80.5em;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    top: 0;
+}
+
+.font1:hover {
+    color: #AA8453;
+    cursor: default;
+}

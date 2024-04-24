@@ -1,0 +1,13 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden; /* masque le contenu depassant de toute la zone du carousel */
+}
+
+.carousel {
+    display: flex; /* pour slides horizontal */
+    transition: transform 0.5s ease; /* Anim de transition lors de changement de slide */
+}
+
+.slide {
+    flex: 0 0 100%; /* slides occupent toute la largeur du carousel */
+}
