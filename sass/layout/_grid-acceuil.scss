@@ -1,0 +1,113 @@
+.display-chambres {
+    margin-left: 19%;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 9%;
+
+
+    .box1 {
+        width: 110%;
+        height: 100%;
+    }
+
+    .box2 {
+        width: 110%;
+        height: 100%;
+        margin-left: -14%;
+    }
+
+    .box3 {
+        width: 105%;
+        height: 100%;
+        margin-left: -29%;
+    }
+
+    .box4 {
+        width: 167%;
+        height: 74%;
+        margin-top: -10%;
+    }
+
+    .box5 {
+        width: 167%;
+        height: 74%;
+        margin-left: 43%;
+        margin-top: -10%;
+    }
+    
+    
+}
+
+
+.grid-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    background-color: #2B2B2B;
+    width: 76%;
+    margin-left: 19%;
+
+    .box-spa1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-spa2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-spa3 {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .box-spa4 {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+.background-description {
+    background-color: #222222;
+    padding: 2%;
+}
+
+.grid-options {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px;
+    background-color: #222222;
+    margin-left: 25%;
+    gap: 130px;
+    margin-top: 2%;
+
+    .box-options1 {
+        color: white;
+    }
+    .box-options2 {
+        color: white;
+        background-color: #2B2B2B;
+    }
+    .box-options3 {
+        color: white;
+        background-color: #2B2B2B;
+    }
+    .tel-options {
+        margin-left: 12%;
+        color: #AA8453;
+        font-size: 23px;
+    }
+    .p-options-2 {
+        margin-left: 30px;
+    }
+    .p-options-1 {
+        font-size: 30px;
+    }
+    .prix-options {
+        margin-left: 30px;
+    }
+}

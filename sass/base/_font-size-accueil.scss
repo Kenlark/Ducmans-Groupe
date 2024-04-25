@@ -25,6 +25,7 @@
     letter-spacing: 4px;
     font-size: 14px;
     font-weight: 300;
+    margin-left: 8%;
 }
 
 .h1-accueil {
@@ -33,8 +34,77 @@
     margin-top: -10px;
     font-size: 30px;
     letter-spacing: 2px;
+    margin-left: 8%;
 }
 
 .blanc-accueil {
     color: rgb(133, 133, 133);
+    margin-left: 8%;
 }
+
+.font-ducsman-above-grid {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 2%;
+    color: #AA8453;
+    letter-spacing: 4px;
+}
+
+.font-chambres-above-grid {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 65px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.p-description {
+    margin-top: -5%;
+    padding: 10%;
+}
+
+.p-1 {
+    font-size: 15px;
+    color: #a97b3e;
+    letter-spacing: 2px;
+}
+
+.p-2 {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.p-3 {
+    line-height: 30px;
+    color: rgb(123, 123, 123);
+}
+
+.en-savoir-plus {
+    background-color: #ac895b;
+    margin-left: 10%;
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+}
+
+.prix-options {
+    font-size: 28px;
+    color: #ac895b;
+}
+
+.p-options-2 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.police-couleur-options {
+    color: rgb(123, 123, 123)
+}
+
+.police-couleur-options-jour {
+    color: rgb(123, 123, 123)
+}
+
