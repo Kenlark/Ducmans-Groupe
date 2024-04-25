@@ -1,20 +1,51 @@
-footer{color: white;
-    display: grid;
-     grid-template-columns: 1fr 1fr;
-     gap: 20px;
-     text-align: justify;
-     }
+.demaquation{color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+        text-align: justify;
+        margin-bottom: 100px;
+         }
 
-.a_propos{margin-left: 250px;
-             margin-right: 100px;}
+.a_propos{margin-left: 450px;
+            margin-right: 50px;
+            }
              
 .contact{margin-left: 260px;
-    }
+            }
 
 .mentions_legals{color: white; 
-             text-align: center;
-             }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(30, 30, 30);
+                height: 100px;
+                    }
 
-i{margin: 5px;}
+i{margin: 5px; 
+color: white;
+        }
 
-#email{text-decoration: underline coral;}
+#email{text-decoration: underline #BB8B49;
+        color: white;
+        }
+
+footer{
+    height: 0;
+    position: absolute;
+    bottom: 100px;
+      }
+      
+#email:hover,
+.fa-instagram:hover{color:pink;
+                        }
+
+.fa-twitter:hover, 
+.fa-facebook-f:hover{color: blue;
+                        }
+
+.fa-youtube:hover, 
+.fa-pinterest-p:hover{color: red;
+                        }
+
+.Copyright{color: gray;
+                }
