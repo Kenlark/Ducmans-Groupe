@@ -21,10 +21,12 @@
                 height: 100px;
                     }
 
-i{margin: 5px; color: white;
+i{margin: 5px; 
+color: white;
         }
 
 #email{text-decoration: underline #BB8B49;
+        color: white;
         }
 
 footer{
@@ -32,3 +34,14 @@ footer{
     position: absolute;
     bottom: 100px;
       }
+#email:hover,
+.fa-instagram:hover{color:pink;
+                        }
+
+.fa-twitter:hover, 
+.fa-facebook-f:hover{color: blue;
+                        }
+
+.fa-youtube:hover, 
+.fa-pinterest-p:hover{color: red;
+                        }
