@@ -1,30 +1,112 @@
 
-    h1, h3{
+ 
+  .photelchambre {
     color: #FDFDFD;
   }
-  p, lu, li{
-    color: #787878;
-  }
-  header {
-    color:#FFFFFF;
-  }
-  h5 {
-    color: #BB8B49;
-  }
-  strong {
-    color: gold;
-  }
-  button{
+  .buttonchambre{
      background-color: #383838;
      border: none;
-     box-shadow : 0px 0px 2px 2px #5f5a5a;
+     box-shadow : 0px 0px 2px 2px #383838;
      color: #FDFDFD;
+     width: 200px;
+     height: 35px;
+     font-family: "Barlow Condensed", sans-serif;
+     font-weight: 500;
+     font-style: normal;
   }
 
-  
-  
-  
-    
+  .headerchambre {
+    position: relative;
+}
+ .imagechambrebody {
+  width: 1855px;
+  height: 800px;
+ }
+
+.logochambre {
+    position: absolute;
+    top: 200px;
+    left: 60%; 
+    transform: translateX(-50%);
+    text-align: center; 
+}
+
+.photelchambre {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.chambredeluxeh1 {
+  color: #FDFDFD;
+  font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.chambredeluxetitre{
+  color: #FDFDFD;
+ font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.DUCSMANh5 {
+  color: #BB8B49;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.Aménagementsh3 {
+  color: #FDFDFD;
+  font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
 
+.Aménagementschambre {
+ list-style-type: none;
+ color: #787878;
+ font-family: "Barlow", sans-serif;
+ font-weight: 500;
+ font-style: normal;
+}
+.textepchambre, .instructionchambre, .Animauxchambre, .enfantchambre {
+  color: #787878;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+  
+.inchambre, .instcheckh3, .compagniechambreh3, .bébéchambreh3, .outchambre {
+  color: #FDFDFD;
+  font-family: "Gilda display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.enlignechambre, .avantchambre, .expresschambre, .partirchambre {
+  color: #787878;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+} 
+
+.logodivchambre img {
+  width: 30px;
  
+}
+.logodivchambre2 img {
+  width: 30px;
+  
+}
+.checkinul {
+  color: #787878;
+  list-style-type: none;
+}
+.checkoutul {
+  color: #787878;
+  list-style-type: none;
+}
