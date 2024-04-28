@@ -19,6 +19,7 @@
                 align-items: center;
                 background-color: rgb(30, 30, 30);
                 height: 130px;
+                margin-left: 13%;
                     }
 
 i{margin: 5px; 
@@ -27,9 +28,10 @@ color: white;
 
 #email{text-decoration: underline #BB8B49;
         color: white;
+        font-family: 'montserrat', sans-serif;
+        font-size: 13px;
         }
 
-/*retirer footer block*/
 
 
       
@@ -47,3 +49,9 @@ color: white;
 
 .Copyright{color: gray;
                 }
+
+.p-footer-numero {
+        display: inline-block;
+        color: white;
+        letter-spacing: 1px;
+}

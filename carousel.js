@@ -26,7 +26,7 @@ nextBtn.addEventListener('click', () => {
 });
 
 /* Interval entre chaque changement de slide (en millisecondes) */
-const interval = 2000; // 2 secondes
+const interval = 3000; // 2 secondes
 
 /* Fonction pour passer automatiquement au prochain slide */
 function autoPlay() {
