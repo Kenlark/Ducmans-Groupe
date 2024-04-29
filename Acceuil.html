@@ -45,7 +45,7 @@
             <ul class="ul-accueil">
                 <li class="slide">
                     <img src="/ressources Ducsman/images/slider/2.jpg" alt="chambre" class="image-header">
-                <li class="slide">
+                <li class="slide"> 
                     <img src="/ressources Ducsman/images/slider/3.jpg" alt="chambre" class="image-header">
             </ul>
      </div>
@@ -64,8 +64,8 @@
                 <div class="p-dormez"> <p>  DORMEZ COMME JAMAIS  </p> </div>
             </div>
             
-                <div class="marge-sidebar-2"> <a href=""> <p class="font1"> ACCUEIL </p> </a>
-                    <a href=""> <p class="font1">A PROPOS </p>  </a>
+                <div class="marge-sidebar-2"> <a href="Acceuil.html"> <p class="font1"> ACCUEIL </p> </a>
+                    <a href="detailschambre.html"> <p class="font1">A PROPOS </p>  </a>
                     <a href=""> <p class="font1"> CHAMBRES & SUITES </p>  </a>
                     <a href=""> <p class="font1"> RESTAURANT </p>  </a>
                     <a href=""> <p class="font1"> CENTRE DE BIEN-ÊTRE </p>  </a>
@@ -76,10 +76,26 @@
                     <div class="info-tel"> <p class="font-info">  Informations & Réservations </p> </div>
                     <div class="numero"> <p class="font-tel"> 03 20 01 02 03  </p> </div>
                     <div class="icone-tel"> <i class="fa-solid fa-phone-volume fa-xl" style="color: #AA8453;"></i> </div>
-                </div>  
-            
-        </div>
-
+                </div>
+        </div>        
+            <div class="navbar">
+            <div class="menu-icon" onclick="toggleMenu()">
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+              <div class="menu-line"></div>
+            </div>
+            <ul class="menu" id="menu">
+                <li class="menu-item"><a href="#">Acceuil</a></li>
+                <li class="menu-item"><a href="#">A PROPOS</a></li>
+                <li class="menu-item"><a href="#">CHAMBRES & SUITES</a></li>
+                <li class="menu-item"><a href="#">RESTAURANT</a></li>
+                <li class="menu-item"><a href="#">CENTRE DE BIEN-ÊTRE</a></li>
+                <li class="menu-item"><a href="#">ACTUALITÉ</a></li>
+                <li class="menu-item"><a href="#">CONTACT</a></li>
+              </ul>
+          </div>
+            <script src="burger.js"></script>
+        
     </nav>
 
     <div class="etoiles-accueil">
@@ -131,7 +147,7 @@
 </main>
 
     <div class="grid-options">
-        <div><p class="box-options1"> <span class="p-options-1"> Options </span> <br> <br> <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae illum asicing. </span> <br> <br> <span class="tel-options2"><i class="fa-solid fa-phone-volume fa-xl" style="color: #AA8453;"></i></span><span> Informations </span> <br> <span class="tel-options"> 03 20 01 02 03 </span> </p></div>
+        <div><p class="box-options1"> <span class="p-options-1"> Options </span> <br> <br> <span class="police-couleur-options-1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae illum asicing. </span> <br> <br> <i class="fa-solid fa-phone-volume fa-xl" style="color: #AA8453;"></i> <span class="police-couleur-options-2"> Informations </span> <br> <span class="tel-options"> 03 20 01 02 03 </span> </p></div>
         <div><p class="box-options2"> <br> <br> <span class="p-options-2"> Petit Déjeuner </span> <br> <br> <span class="prix-options"> 30€ </span> <span class="police-couleur-options-jour"> /jour </span><br> <br> <span class="police-couleur-options"><i class="fa-solid fa-check" style="color: #AA8453;"></i> Hotel ut nissan the duru </span> <br> <span class="police-couleur-options"><i class="fa-solid fa-check" style="color: #AA8453;"></i> Orci miss natoque vasa ince </span> <br> <span class="police-couleur-options"><i class="fa-solid fa-xmark" style="color: #7d7d7d;"></i> Clean sorem ipsum morbin </span> </p></div>
         <div><p class="box-options3"> <br> <br> <span class="p-options-2"> Coffre-fort sécurisé </span> <br> <br> <span class="prix-options"> 15€ </span> <span class="police-couleur-options-jour"> /jour </span> <br> <br> </b><span class="police-couleur-options"><i class="fa-solid fa-check" style="color: #AA8453;"></i> Hotel ut nissan the duru </span> <br> <span class="police-couleur-options"> <i class="fa-solid fa-check" style="color: #AA8453;"></i> Orci miss natoque vasa ince </span> <br> <span class="police-couleur-options"> <i class="fa-solid fa-xmark" style="color: #7d7d7d;"></i> Clean sorem ipsum morbin </span> </p></div>
     </div>
@@ -145,24 +161,24 @@
         <div><p class="box-services"> <br> <br> <span class="p-services-1"> <i class="fa-solid fa-utensils fa-2xl" style="color: #AA8453;;"></i> </span> <br> <br> <span class="p-services-2"> Petit déjeuner </span> <br> <br> <div class="p-services-3"> Le Restaurant vous propose, tous les <br> matins, un buffet continental </div> </p></div>
     </div>
     
-    <footer class="testttt">
+    <footer>
         <section class="demaquation">
 
         <div class="a_propos">
-            <h2>A propos de notre hôtel</h2>
-            <p>Le seul hôtel 5 étoiles de Paris.Elementum sesue the aucan ivestan aliquam into the sapiem retrum.<br> 
+            <p class="p-footer">A propos de notre hôtel</p>
+            <p class="police-couleur-footer">Le seul hôtel 5 étoiles de Paris.Elementum sesue the aucan ivestan aliquam into the sapiem retrum.<br> 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Illum enim veritatis blanditiis perspiciatis corrupti 
                 dolorem sapiente praesentium provident porro eum sit, 
-                hic error eaque rem officiis nam beatae quia facilis!</p>
+                hic error eaque rem officiis beatae.</p>
         </div>
 
         <div class="contact">
-        <h2>contact</h2>
-        <p>23 avenue des nation unis <br>75001 Paris</p>
+        <p class="p-footer-contact">Contact</p>
+        <p class="p-footer-adresse">23 avenue des nation unis <br>75001 Paris</p>
         
 
-            <i class="fa-solid fa-phone-volume"> 03 20 01 02 03</i>
+            <i class="fa-solid fa-phone-volume"> <p class="p-footer-numero"> 03 20 01 02 03 </p> </i>
             <a href="#" target="_blank"><p id="email">info@ducsman.com</p></a>
 
             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -174,7 +190,7 @@
 
         </section>
 
-        <P class="mentions_legals">Mentions légales - Conditions Générals de Ventes - Politique de confidentialité - <span class="Copyright"> © Copyright 2023 - Ducsman Group</span></P>
+        <p class="mentions_legals">Mentions légales - Conditions Générals de Ventes - Politique de confidentialité - <span class="Copyright"> © Copyright 2023 - Ducsman Group</span></p>
 
     </footer>
 

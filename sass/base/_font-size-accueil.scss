@@ -1,10 +1,13 @@
 .font-info {
+    display: inline-block;
     font-size: 13px;
 }
 
 .font-tel {
+    display: inline-block;
     font-size: 20px;
     font-weight: 500;
+    color: #AA8453;
 }
 
 .font-ducmans {
@@ -171,6 +174,11 @@
     text-align: center;
     padding: 10px;
     font-size: 10px;
+}
+
+.p-titre-carousel-4:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
 .a-carousel {
@@ -392,3 +400,57 @@
     font-size: 17px;
     z-index: 2;
 }
+
+.police-couleur-options-1 {
+    color: rgb(123, 123, 123)
+}
+
+.police-couleur-options-2 {
+    color: rgb(123, 123, 123)
+}
+
+.police-couleur-footer {
+    color: rgb(123, 123, 123)
+}
+
+.p-footer {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.p-footer-contact {
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+
+.p-footer-adresse {
+    color: rgb(123, 123, 123)
+}
+
+.p-chambre-1:hover {
+    transform: scale(1.1) rotate(-90deg);
+    transition: transform 0.5s;
+}
+
+.p-chambre-2:hover {
+    transform: scale(1.1) rotate(-90deg);
+    transition: transform 0.5s;
+}
+
+.p-chambre-3:hover {
+    transform: scale(1.1) rotate(-90deg);
+    transition: transform 0.5s;
+}
+
+.p-chambre-4:hover {
+    transform: scale(1.1) rotate(-90deg);
+    transition: transform 0.5s;
+}
+
+.p-chambre-5:hover {
+    transform: scale(1.1) rotate(-90deg);
+    transition: transform 0.5s;
+}
+
