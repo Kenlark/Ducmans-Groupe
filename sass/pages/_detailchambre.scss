@@ -16,7 +16,17 @@
 
   .logoochambre {
     position: relative;
+    
 }
+
+.logochambre {
+  position: absolute;
+  top: 5vw;
+  left: 50%; 
+  transform: translateX(-50%);
+  text-align: center; 
+}
+
  .imagechambrebody {
   width: 100%;
   height: auto;
@@ -26,13 +36,7 @@
  text-align: center;
  }
 
-.logochambre {
-    position: absolute;
-    top: 5vw;
-    left: 50%; 
-    transform: translateX(-50%);
-    text-align: center; 
-}
+
 .logochambreABCDE{
   width: 25px;
 }
