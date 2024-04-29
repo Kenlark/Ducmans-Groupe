@@ -4,22 +4,23 @@ const slides = document.querySelectorAll('.slide'); /* Selection de tous les él
 let currentIndex = 0; /* currentidenx avec une variable "let" car elle ne sera pas constante */
 
 /* Fonction qui va afficher l'image qui correpond au currentindex */
-
 function showSlide(index) {
     slides.forEach((slide, i) => {
-        slide.style.transform = `translateX(-${100 * index}%)`; /* translate de 100% en X l'index */
+        if (i === index) {
+            slide.classList.add('active'); // Afficher la diapositive actuelle
+        } else {
+            slide.classList.remove('active'); // Masquer les autres diapositives
+        }
     });
 }
 
 /* Passe a la précédente slide avec le bouton previous et revient a la precedente si on appuie encore dessus */
-
 prevBtn.addEventListener('click', () => {
     currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
     showSlide(currentIndex);
 });
 
 /* Passe a la prochaine slide avec le bouton suivant et revient a la precedente si on appuie encore dessus */
-
 nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
     showSlide(currentIndex);
@@ -35,4 +36,4 @@ function autoPlay() {
 }
 
 /* Démarre le défilement automatique */
-const autoPlayInterval = setInterval(autoPlay, interval); 
+const autoPlayInterval = setInterval(autoPlay, interval);
