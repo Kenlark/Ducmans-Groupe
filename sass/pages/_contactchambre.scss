@@ -67,3 +67,13 @@
     .mot{
     font-size: 100%;
     }
+
+    @media screen and (max-width: 768px){
+
+        #mise-en-page{
+            display: block;
+            justify-content: space-around;
+
+            }
+
+    }
