@@ -14,14 +14,15 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
-        width: 40%; 
+        width: 100%; 
         position: fixed; 
         top: 0;
         left: 0; 
         bottom: 0; 
         transition: width 0.3s ease; 
         overflow: auto; 
-        height: 13%;
+        height: 5%;
+        z-index: 1;
     }
     
     .logo {
@@ -44,12 +45,13 @@
     .menu {
         list-style-type: none;
         padding: 0;
-        margin: 0;
-        overflow: hidden;
+        margin-left: 29%;
         max-height: 0;
+        overflow: hidden;
         transition: max-height 0.3s ease, flex-direction 0.3s ease;
         flex-direction: column;
         width: 100%;
+        margin-top: -5%;
     }
     .menu.active {
         max-height: 500px;
@@ -66,33 +68,88 @@
     
     .menu-item {
         opacity: 0; 
-        transition: opacity 0.3s ease; 
+        transition: opacity 0.3s ease;
+        margin-top: 1%; 
     }
     
     .menu.active .menu-item {
         opacity: 1;
     }
 
+    .slide {
+        display: none;
+    }
+    
+    .slide.active {
+        display: block;
+    }
+
     .carousel {
-        margin-left: 20%;
+        position: absolute;
+        margin-top: 15%;
+    }
+
+    .titre-etoiles {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        margin-left: 34%;
+        margin-top: 20%;
+        z-index: 1;
     }
 
     .image-header {
-        width: 80%;
+        width: 120%;
+        margin-left: -20%;
+        filter: brightness(0.8);
     }
 
     .etoiles-accueil {
-        margin-top: 5%;
-        margin-left: -5%;
+        position: absolute;
+        margin-left: -1%;
+        margin-top: 260px;
         background-color: rgb(40, 40, 40);
-        height: 80em;
+        height: 70em;
+    }
+
+    .titre-carousel {
+        position: absolute;
+        width: 100%;
+        margin-top: 19%;
+        margin-left: 13%;
+    }
+
+    .p-titre-carousel-2 {
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 2%;
+        font-size: 22px;
+    }
+
+    .p-titre-carousel-3 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 15%;
+        font-size: 22px;
+    }
+
+    .p-titre-carousel-4 {
+        position: absolute;
+        margin-top: 28%;
+        margin-right: 100%;
+    }
+
+    #etoiles-accueil0 {
+        margin-left: 35%;
     }
 
     .p-hotel {
+        margin-left: 18%;
         margin-top: 5%;
     }
 
     .h1-accueil {
+        margin-left: 10%;
         margin-top: 5%;
     }
 
@@ -101,12 +158,12 @@
     }
 
     .img-hotel {
-        margin-left: -1%;
-        margin-top: 100%;
+        margin-left: 15%;
+        margin-top: 85%;
     }
 
     .img-hotel-2 {
-        margin-left: -1%;
+        margin-left: 15%;
         margin-top: 5%;
     }
 
@@ -119,8 +176,43 @@
     }
 
     .display-chambres {
+        position: absolute;
+        margin-top: 350%;
+        margin-left: 5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .display-chambres img{
         display: none;
     }
+
+    .p-chambre-1 {
+        transform: rotate(360deg);
+    }
+    .p-chambre-2 {
+        transform: rotate(360deg);
+    }
+    .p-chambre-3 {
+        transform: rotate(360deg);
+    }
+    .p-chambre-4 {
+        transform: rotate(360deg);
+    }
+    .p-chambre-5 {
+        transform: rotate(360deg);
+    }
+
+    p-chambre-junior-1
+
+    p-chambre-junior-2
+
+    p-chambre-junior-3
+
+    p-chambre-junior-4
+
+    p-chambre-junior-5
 
     .background-description {
         display: none;
@@ -131,14 +223,6 @@
     }
 
     .grid-services {
-        display: none;
-    }
-
-    .titre-etoiles {
-        display: none;
-    }
-
-    .titre-carousel {
         display: none;
     }
 
