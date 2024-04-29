@@ -12,30 +12,29 @@
      font-family: "Barlow Condensed", sans-serif;
      font-weight: 500;
      font-style: normal;
+     letter-spacing: 3px;
   }
 
   .logoochambre {
-    position: relative;
-    
+    position: relative; 
 }
 
 .logochambre {
   position: absolute;
-  top: 5vw;
-  left: 50%; 
+  top: 18vw;
+  left: 57%; 
   transform: translateX(-50%);
   text-align: center; 
 }
 
  .imagechambrebody {
   width: 100%;
-  height: auto;
+  height: 100%;
   left: 50%;
  opacity: 0.7;
- clip-path: polygon(0 0, 100% 0, 100% 90%, 0 90%);
  text-align: center;
+ clip-path: polygon(0 0, 100% 0, 100% 90%, 0 90%,);
  }
-
 
 .logochambreABCDE{
   width: 25px;
@@ -53,7 +52,7 @@
   font-weight: 100;
   font-style: normal;
   letter-spacing: 20px;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 
@@ -62,6 +61,9 @@
  font-family: "Gilda Display", serif;
   font-weight: 100;
   font-style: normal;
+  font-size: 38px;
+
+
 }
 
 .DUCSMANh5 {
@@ -69,25 +71,31 @@
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 20px;
+  letter-spacing: 6px;
 }
+
 /*amenagments et logo amenagments*/
 
 .Aménagementsh3 {
   color: #FDFDFD;
   font-family: "Gilda Display", serif;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
-  margin-right: 300px;
+  margin-right: 180px;
   position: relative;
+  font-size: 30px;
+  margin-top: 118px;
 }
+
 .Aménagementschambre {
  list-style-type: none;
- color: #787878;
  font-family: "Barlow", sans-serif;
- font-weight: 600;
+ font-weight: 400;
  font-style: normal;
- font-size: 15px;
- margin-top: 60px;
+ font-size: 10px;
+ margin-top: 190px;
+padding-right: 110px;
 
 }
 
@@ -98,30 +106,50 @@
 }
 .spanchambre1 {
   padding-right: 113px;
-  
+  color: #787878;
+  font-size: 18px;
 }
+
 .spanchambre2 {
   padding-right: 57px;
+  color: #787878;
+  font-size: 18px;
 }
+
 .spanchambre3 {
   padding-right: 167px;
+  color: #787878;
+  font-size: 18px;
 }
+
 .spanchambre4 {
   padding-right: 22px;
+  color: #787878;
+  font-size: 18px;
 }
+
 .spanchambre5 {
   padding-right: 78px;
+  color: #787878;
+  font-size: 18px;
 }
+
  .spanchambre6 {
-  padding-right: 47px;
+  padding-right: 43px;
+  color: #787878;
+  font-size: 18px;
 }
+
 .Aménagementschambre li {
-padding-bottom: 11px;
+padding-bottom: 15px;
+color: #787878;
 }
+
 .logochambre1 {   
   margin-right: 20px;
   width: 25px;
 }
+
  .logochambre2 { 
     margin-right: 20px;   
     width: 25px;
