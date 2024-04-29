@@ -177,53 +177,116 @@
 
     .display-chambres {
         position: absolute;
-        margin-top: 350%;
-        margin-left: 5%;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        align-items: flex-start;
+        margin-top: 430%;
     }
 
-    .display-chambres img{
+    .display-chambres img {
         display: none;
     }
 
+
     .p-chambre-1 {
+        margin-left: 245%;
+        margin-top: -390%;
         transform: rotate(360deg);
+        width: 70%;
     }
     .p-chambre-2 {
         transform: rotate(360deg);
+        width:  70%;
+        margin-left: 0%;
+        margin-top: -340%;
     }
     .p-chambre-3 {
         transform: rotate(360deg);
+        width:  70%;
+        margin-left: 245%;
+        margin-top: -290%;
     }
     .p-chambre-4 {
         transform: rotate(360deg);
+        width:  70%;
+        margin-left: 0%;
+        margin-top: -240%;
     }
     .p-chambre-5 {
         transform: rotate(360deg);
+        width:  70%;
+        margin-left: 245%;
+        margin-top: -190%;
     }
 
-    p-chambre-junior-1
-
-    p-chambre-junior-2
-
-    p-chambre-junior-3
-
-    p-chambre-junior-4
-
-    p-chambre-junior-5
-
-    .background-description {
-        display: none;
+    .p-chambre-junior-5 {
+        position: absolute;
+        margin-top: 17%;
+        margin-left: -45%;
+        font-size: 13px;
     }
 
-    .grid-options {
-        display: none;
+    .p-chambre-junior-prix-5 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 0%; 
+        font-size: 13px;
     }
 
-    .grid-services {
-        display: none;
+    .p-chambre-junior-4 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: -115%;
+        font-size: 13px;
+    }
+
+    .p-chambre-junior-prix-4 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: -70%;
+        font-size: 13px;
+    }
+.p-chambre-junior-3 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: -39%;
+        font-size: 13px;
+    }
+
+    .p-chambre-junior-prix-3 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 0%;
+        font-size: 13px;
+    }
+
+    .p-chambre-junior-2 {
+        position: absolute;
+        margin-top: -40%;
+        margin-left: -108%;
+        font-size: 13px;
+    }
+
+    .p-chambre-junior-prix-2 {
+        position: absolute;
+        margin-top: -40%;
+        margin-left: -70%; 
+        font-size: 13px;
+    }
+
+    .p-chambre-junior-1 {
+        position: absolute;
+        margin-top: -69%;
+        margin-left: -30%;
+        font-size: 13px;
+    }
+
+    .p-chambre-junior-prix-1 {
+        position: absolute;
+        margin-top: -69%;
+        margin-left: 0%; 
+        font-size: 13px;
     }
 
     .p-titre-services {
@@ -238,7 +301,77 @@
         display: none;
     }
 
-    footer {
-        display: none;
+    .grid-description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 420%;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .box-spa2 {
+        margin-top: 5%;
+    }
+    .box-spa4 {
+        margin-top: 5%;
+    }
+
+    .grid-options {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .box-options1{
+        width: 90%;
+        padding-bottom: 10%;
+        margin-left: -10%;
+    }
+
+    .box-options2{
+        width: 90%;
+        padding-bottom: 10%;
+        margin-top: -40%;
+        margin-left: -10%;
+    }
+
+    .box-options3{
+        width: 90%;
+        padding-bottom: 10%;
+        margin-top: -40%;
+        margin-left: -10%;
+    }
+
+    .grid-services {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 110%;
+    }
+
+    .box-services {
+        padding-bottom: 20%;
+        margin-left: -5%;
+        
+    }
+
+    .demaquation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a_propos {
+        position: relative;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    .contact {
+        margin-top: 0%;
+        margin-left: 30%;
+    }
+
+    .mentions_legals {
+        margin-right: 0%;
+        margin-left: 0%;
     }
 }
