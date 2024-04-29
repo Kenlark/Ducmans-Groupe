@@ -71,15 +71,15 @@
   font-style: normal;
 }
 /*amenagments et logo amenagments*/
+
 .Aménagementsh3 {
   color: #FDFDFD;
   font-family: "Gilda Display", serif;
   font-weight: 100;
   font-style: normal;
-  margin-right: 80px;
+  margin-right: 300px;
   position: relative;
 }
-
 .Aménagementschambre {
  list-style-type: none;
  color: #787878;
@@ -204,6 +204,7 @@ padding-bottom: 11px;
   
 }
 
+/*responsive*/
 
 @media screen and (max-width: 768px) {
   body {
