@@ -28,7 +28,7 @@
 
 .logochambre {
     position: absolute;
-    top: 200px;
+    top: 5vw;
     left: 50%; 
     transform: translateX(-50%);
     text-align: center; 
@@ -49,7 +49,7 @@
   font-weight: 100;
   font-style: normal;
   letter-spacing: 20px;
-  font-size: 60px;
+  font-size: 6vw;
 }
 
 
@@ -158,8 +158,8 @@ padding-bottom: 11px;
   font-weight: 500;
   font-style: normal;
 }
-/*checkin et checkout*/
 
+/*checkin et checkout*/
 
 .logodivchambre img {
   width: 30px;
@@ -199,25 +199,21 @@ padding-bottom: 11px;
     font-size: 16px;
   
 }
-@media screen and (max-width: 768px) {
-  .Aménagementschambre li {
-      display: block;
-      margin-bottom: 10px;
-  }
-  body {
-      font-size: 18px;
-  }
-  .movechambre {
-      width: 90%;
-  }
-}
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 768px) {
   body {
       font-size: 16px;
   }
   .movechambre {
       width: 100%;
   }
+  .Aménagementsh3,
+  .Aménagementschambre {
+    position: relative;
+    width: auto;
+    margin-top: 20px;
+    margin-right: auto;
+   
+  }
 }
-
