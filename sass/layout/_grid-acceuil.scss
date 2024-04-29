@@ -10,24 +10,28 @@
     .box1 {
         width: 110%;
         height: 100%;
+        filter: brightness(0.8);
     }
 
     .box2 {
         width: 110%;
         height: 100%;
         margin-left: -14%;
+        filter: brightness(0.8);
     }
 
     .box3 {
         width: 105%;
         height: 100%;
         margin-left: -29%;
+        filter: brightness(0.8);
     }
 
     .box4 {
         width: 167%;
         height: 74%;
         margin-top: -10%;
+        filter: brightness(0.8);
     }
 
     .box5 {
@@ -35,6 +39,7 @@
         height: 74%;
         margin-left: 43%;
         margin-top: -10%;
+        filter: brightness(0.8);
     }
     
     
@@ -79,7 +84,7 @@
 .grid-options {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 200px;
+    grid-template-rows: 450px;
     background-color: #222222;
     margin-left: 25%;
     gap: 130px;
@@ -91,10 +96,12 @@
     .box-options2 {
         color: white;
         background-color: #2B2B2B;
+        height: 50%;
     }
     .box-options3 {
         color: white;
         background-color: #2B2B2B;
+        height: 50%;
     }
     .tel-options {
         margin-left: 12%;
@@ -109,5 +116,35 @@
     }
     .prix-options {
         margin-left: 30px;
+    }
+}
+
+.grid-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    margin-left: 20%;
+    margin-top: -5%;
+
+    
+    .box-services {
+        color: white;
+        border: rgb(37, 37, 37) solid;
+        width: 65%;
+        height: 80%;
+    }
+
+    .p-services-1 {
+        padding: 17px;
+    }
+    
+    .p-services-2 {
+        padding: 17px;
+    }
+
+    .p-services-3 {
+        padding: 10px;
+        margin-top: -20%;
+        margin-left: 2%;
     }
 }

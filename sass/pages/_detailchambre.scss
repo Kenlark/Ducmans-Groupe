@@ -1,30 +1,223 @@
 
-    h1, h3{
+
+  .photelchambre {
     color: #FDFDFD;
   }
-  p, lu, li{
-    color: #787878;
-  }
-  header {
-    color:#FFFFFF;
-  }
-  h5 {
-    color: #BB8B49;
-  }
-  strong {
-    color: gold;
-  }
-  button{
+  .buttonchambre{
      background-color: #383838;
      border: none;
-     box-shadow : 0px 0px 2px 2px #5f5a5a;
      color: #FDFDFD;
+     width: 200px;
+     height: 35px;
+     font-family: "Barlow Condensed", sans-serif;
+     font-weight: 500;
+     font-style: normal;
   }
 
-  
-  
-  
-    
+  .logoochambre {
+    position: relative;
+}
+ .imagechambrebody {
+  width: 100%;
+  height: auto;
+  left: 50%;
+ opacity: 0.7;
+ clip-path: polygon(0 0, 100% 0, 100% 90%, 0 90%);
+ text-align: center;
+ }
+
+.logochambre {
+    position: absolute;
+    top: 200px;
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center; 
+}
+.logochambreABCDE{
+  width: 25px;
+}
+.photelchambre {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+.chambredeluxeh1 {
+  color: #FDFDFD;
+  font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 20px;
+  font-size: 60px;
+}
 
 
+.chambredeluxetitre{
+  color: #FDFDFD;
+ font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.DUCSMANh5 {
+  color: #BB8B49;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/*amenagments et logo amenagments*/
+.Aménagementsh3 {
+  color: #FDFDFD;
+  font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-right: 80px;
+  position: relative;
+}
+
+.Aménagementschambre {
+ list-style-type: none;
+ color: #787878;
+ font-family: "Barlow", sans-serif;
+ font-weight: 600;
+ font-style: normal;
+ font-size: 15px;
+ margin-top: 60px;
+
+}
+
+.Aménagementschambre, .Aménagementsh3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.spanchambre1 {
+  padding-right: 113px;
+  
+}
+.spanchambre2 {
+  padding-right: 57px;
+}
+.spanchambre3 {
+  padding-right: 167px;
+}
+.spanchambre4 {
+  padding-right: 22px;
+}
+.spanchambre5 {
+  padding-right: 78px;
+}
+ .spanchambre6 {
+  padding-right: 47px;
+}
+.Aménagementschambre li {
+padding-bottom: 11px;
+}
+.logochambre1 {   
+  margin-right: 20px;
+  width: 25px;
+}
+ .logochambre2 { 
+    margin-right: 20px;   
+    width: 25px;
+   }
+
+  .logochambre3 {  
+    margin-right: 20px;   
+    width: 25px;
+  }
+
+  .logochambre4 {   
+    margin-right: 20px;   
+    width: 25px;
+   } 
+
+  .logochambre5 {  
+   margin-right: 20px;
+   width: 25px;
+   }  
+
+  .logochambre6 {   
+    margin-right: 10px;   
+    width: 35px; 
+  } 
+/*PARAGRAPHE*/
+.textepchambre, .instructionchambre, .Animauxchambre, .enfantchambre {
+  color: #787878;
+  font-family: "Barlow", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 15px;
+}
+
+  /*H3*/
+.inchambre, .instcheckh3, .compagniechambreh3, .bébéchambreh3, .outchambre {
+  color: #FDFDFD;
+  font-family: "Gilda display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/*checkin et checkout*/
+
+
+.logodivchambre img {
+  width: 30px;
  
+}
+.logodivchambre2 img {
+  width: 30px;
+  
+}
+.checkinul {
+  color: #787878;
+  list-style-type: none;
+}
+.checkoutul {
+  color: #787878;
+  list-style-type: none;
+}
+.checkoutul {
+  margin-left: 20px; 
+}
+/*balise section*/
+.movechambre ul {
+  display: inline-block;
+}
+
+.movechambre {
+  position: relative;
+  margin-top: -50px;
+  margin-left: 20%;
+}
+.checkinul li,
+.checkoutul li {
+  color: #787878;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 16px;
+  
+}
+@media screen and (max-width: 768px) {
+  .Aménagementschambre li {
+      display: block;
+      margin-bottom: 10px;
+  }
+  body {
+      font-size: 18px;
+  }
+  .movechambre {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+      font-size: 16px;
+  }
+  .movechambre {
+      width: 100%;
+  }
+}
+
