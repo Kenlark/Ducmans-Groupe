@@ -16,7 +16,17 @@
 
   .logoochambre {
     position: relative;
+    
 }
+
+.logochambre {
+  position: absolute;
+  top: 5vw;
+  left: 50%; 
+  transform: translateX(-50%);
+  text-align: center; 
+}
+
  .imagechambrebody {
   width: 100%;
   height: auto;
@@ -26,13 +36,7 @@
  text-align: center;
  }
 
-.logochambre {
-    position: absolute;
-    top: 200px;
-    left: 50%; 
-    transform: translateX(-50%);
-    text-align: center; 
-}
+
 .logochambreABCDE{
   width: 25px;
 }
@@ -49,7 +53,7 @@
   font-weight: 100;
   font-style: normal;
   letter-spacing: 20px;
-  font-size: 60px;
+  font-size: 6vw;
 }
 
 
@@ -67,15 +71,15 @@
   font-style: normal;
 }
 /*amenagments et logo amenagments*/
+
 .Aménagementsh3 {
   color: #FDFDFD;
   font-family: "Gilda Display", serif;
   font-weight: 100;
   font-style: normal;
-  margin-right: 80px;
+  margin-right: 300px;
   position: relative;
 }
-
 .Aménagementschambre {
  list-style-type: none;
  color: #787878;
@@ -158,8 +162,8 @@ padding-bottom: 11px;
   font-weight: 500;
   font-style: normal;
 }
-/*checkin et checkout*/
 
+/*checkin et checkout*/
 
 .logodivchambre img {
   width: 30px;
@@ -199,25 +203,22 @@ padding-bottom: 11px;
     font-size: 16px;
   
 }
-@media screen and (max-width: 768px) {
-  .Aménagementschambre li {
-      display: block;
-      margin-bottom: 10px;
-  }
-  body {
-      font-size: 18px;
-  }
-  .headerchambre {
-      width: 90%;
-  }
-}
 
-@media screen and (max-width: 480px) {
+/*responsive*/
+
+@media screen and (max-width: 768px) {
   body {
       font-size: 16px;
   }
-  .headerchambre {
+  .movechambre {
       width: 100%;
   }
+  .Aménagementsh3,
+  .Aménagementschambre {
+    position: relative;
+    width: auto;
+    margin-top: 20px;
+    margin-right: auto;
+   
+  }
 }
-

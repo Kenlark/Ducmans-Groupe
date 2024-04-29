@@ -1,0 +1,79 @@
+/*contact*/
+.titre{
+    color: white;
+    font-weight: normal;
+    }
+
+    
+    .margincontact{margin-left: 20%;}
+    
+    figure{
+    float: left;
+    }
+    
+    input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    
+    
+    }
+    
+    #message{
+    background-color: transparent;
+    font-size: 100%;
+    }
+    
+    #envoyer{
+    background-color: #ab8a62;
+    width: 80px;
+    height: 60px;
+    color: #f3eee8;
+    }
+    
+    
+    #mise-en-page{
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    
+    .maps{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+    }
+    
+    .logo i{
+    color: #826744;
+    }
+    
+    .phrase{
+    color: #8e8e8e;
+    margin: auto;
+    font-size: 20px
+    }
+    
+    span{
+    color: #826744;
+    font-size: x-large;
+    }
+    
+    .mot{
+    font-size: 100%;
+    }
+
+    @media screen and (max-width: 768px){
+
+        #mise-en-page{
+            display: block;
+            justify-content: space-around;
+
+            }
+
+    }
