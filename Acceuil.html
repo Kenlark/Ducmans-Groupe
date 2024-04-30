@@ -24,6 +24,8 @@
 </head>
 <body>
     
+    <!-- Header contenant le caroussel-->
+
 <header> 
     <div class="titre-etoiles">
         <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;"></i>
@@ -49,8 +51,13 @@
                     <img src="/ressources_Ducsman/images/slider/3.jpg" alt="chambre" class="image-header">
             </ul>
      </div>
+
+                <!-- script JavaScript Caroussel -->
+
         <script src="carousel.js"></script>
 </header>
+
+        <!-- Barre sur le côté gauche -->
 
     <nav>
         <div class="sidebar">
@@ -77,6 +84,9 @@
                     <div class="numero"> <p class="font-tel"> 03 20 01 02 03  </p> </div>
                     <div class="icone-tel"> <i class="fa-solid fa-phone-volume fa-xl" style="color: #AA8453;"></i> </div>
                 </div>
+
+                <!-- Menu Burger pour responsive -->
+
         </div>        
             <div class="navbar">
             <div class="menu-icon" onclick="toggleMenu()">
@@ -94,9 +104,14 @@
                 <li class="menu-item"><a href="#">CONTACT</a></li>
               </ul>
           </div>
+
+                <!-- Menu Burger JavaScript -->
+
             <script src="burger.js"></script>
         
     </nav>
+
+        <!-- div qui contient deux images, un p etc.. -->
 
     <div class="etoiles-accueil">
                 <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;" id="etoiles-accueil0"></i>
@@ -111,8 +126,14 @@
                 <img src="ressources_Ducsman/images/rooms/2.jpg" alt="" class="img-hotel">
                 <img src="ressources_Ducsman/images/rooms/8.jpg" alt="" class="img-hotel-2">
     </div>
+
+            <!-- grid qui contient prix chambres et reservations -->
+
         <p class="font-ducsman-above-grid"> Ducsman </p>
         <p class="font-chambres-above-grid"> Chambres & Suites </p>
+
+        
+
     <div class="display-chambres">
         <div><img src="ressources_Ducsman/images/rooms/1.jpg" alt="" class="box1"> <p class="p-chambre-5"> <a href="" class="a-carousel" target="_blank"> RÉSERVER </a></p><p class="p-chambre-junior-1"> <span class="p-chambre-junior-border">Suite </span> Junior </p><p class="p-chambre-junior-prix-1"> 150€ / NUIT </p></div>
         <div><img src="ressources_Ducsman/images/rooms/2.jpg" alt="" class="box2"> <p class="p-chambre-4"> <a href="" class="a-carousel" target="_blank"> RÉSERVER </a></p><p class="p-chambre-junior-2"> <span class="p-chambre-junior-border">Chambre </span> Familiale </p><p class="p-chambre-junior-prix-2"> 200€ / NUIT </p></div>
@@ -120,6 +141,9 @@
         <div><img src="ressources_Ducsman/images/rooms/4.jpg" alt="" class="box4"> <p class="p-chambre-2"> <a href="" class="a-carousel" target="_blank"> RÉSERVER </a></p><p class="p-chambre-junior-4"> <span class="p-chambre-junior-border">Suite </span> Junior </p><p class="p-chambre-junior-prix-4"> 150€ / NUIT </p></div>
         <div><img src="ressources_Ducsman/images/rooms/7.jpg" alt="" class="box5"> <p class="p-chambre-3"> <a href="" class="a-carousel" target="_blank"> RÉSERVER </a></p><p class="p-chambre-junior-5"> <span class="p-chambre-junior-border">Suite </span> Junior </p><p class="p-chambre-junior-prix-5"> 150€ / NUIT </p></div>
     </div> 
+
+        <!-- main qui contient un grid avec description des images -->
+
 <main class="background-description">
     <div class="grid-description">
 
@@ -146,11 +170,16 @@
     </div> 
 </main>
 
+        <!-- grid qui contient les options disponibles et leurs prix associés -->
+
     <div class="grid-options">
         <div><p class="box-options1"> <span class="p-options-1"> Options </span> <br> <br> <span class="police-couleur-options-1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae illum asicing. </span> <br> <br> <i class="fa-solid fa-phone-volume fa-xl" style="color: #AA8453;"></i> <span class="police-couleur-options-2"> Informations </span> <br> <span class="tel-options"> 03 20 01 02 03 </span> </p></div>
         <div><p class="box-options2"> <br> <br> <span class="p-options-2"> Petit Déjeuner </span> <br> <br> <span class="prix-options"> 30€ </span> <span class="police-couleur-options-jour"> /jour </span><br> <br> <span class="police-couleur-options"><i class="fa-solid fa-check" style="color: #AA8453;"></i> Hotel ut nissan the duru </span> <br> <span class="police-couleur-options"><i class="fa-solid fa-check" style="color: #AA8453;"></i> Orci miss natoque vasa ince </span> <br> <span class="police-couleur-options"><i class="fa-solid fa-xmark" style="color: #7d7d7d;"></i> Clean sorem ipsum morbin </span> </p></div>
         <div><p class="box-options3"> <br> <br> <span class="p-options-2"> Coffre-fort sécurisé </span> <br> <br> <span class="prix-options"> 15€ </span> <span class="police-couleur-options-jour"> /jour </span> <br> <br> <span class="police-couleur-options"><i class="fa-solid fa-check" style="color: #AA8453;"></i> Hotel ut nissan the duru </span> <br> <span class="police-couleur-options"> <i class="fa-solid fa-check" style="color: #AA8453;"></i> Orci miss natoque vasa ince </span> <br> <span class="police-couleur-options"> <i class="fa-solid fa-xmark" style="color: #7d7d7d;"></i> Clean sorem ipsum morbin </span> </p></div>
     </div>
+
+        <!-- grid qui contient les services disponibles au sein de l'hôtel -->
+
     <p class="p-titre-services"> Services en + </p>
     <div class="grid-services">
         <div><p class="box-services"> <br> <br> <span class="p-services-1"> <i class="fa-solid fa-earth-americas fa-2xl" style="color: #AA8453;"></i> </span> <br> <br> <span class="p-services-2"> Transferts </span> <br> <br> <div class="p-services-3"> Nous pouvons venir vous chercher <br> directement à l'aéroport en voiture <br> individuelle </div></div>
@@ -160,6 +189,8 @@
         <div><p class="box-services"> <br> <br> <span class="p-services-1"> <i class="fa-solid fa-wifi fa-2xl" style="color: #AA8453;;"></i> </span> <br> <br> <span class="p-services-2"> Accès internet </span> <br> <br> <div class="p-services-3"> Accès Wifi gartuit disponible dans <br> l'ensemble de l'hôtel </div> </div>
         <div><p class="box-services"> <br> <br> <span class="p-services-1"> <i class="fa-solid fa-utensils fa-2xl" style="color: #AA8453;;"></i> </span> <br> <br> <span class="p-services-2"> Petit déjeuner </span> <br> <br> <div class="p-services-3"> Le Restaurant vous propose, tous les <br> matins, un buffet continental </div></div>
     </div>
+
+        <!-- footer -->
     
     <footer>
         <section class="demaquation">

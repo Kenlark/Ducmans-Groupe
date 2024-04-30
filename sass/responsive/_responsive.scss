@@ -7,6 +7,8 @@
         margin: 0;
     }
 
+        // menu burger                   
+
     .navbar {
         background-color: #222222;
         color: #fff;
@@ -76,6 +78,8 @@
         opacity: 1;
     }
 
+    // caroussel avec titre au dessus
+
     .carousel {
         position: absolute;
         margin-top: 15%;
@@ -131,6 +135,8 @@
         margin-right: 100%;
     }
 
+    // suite avec les deux images
+
     #etoiles-accueil0 {
         margin-left: 35%;
     }
@@ -159,13 +165,19 @@
         margin-top: 5%;
     }
 
+    // sidebar qui disparait pour laisser le menu burger
+
     .sidebar {
         display: none;
     }
 
+    // bouttons caroussel enlever pour caroussel auto
+
     .btn-carousel {
         display: none;
     }
+
+    // grid des chambres passer en flex en version mobile
 
     .display-chambres {
         position: absolute;
@@ -176,10 +188,13 @@
         margin-top: 430%;
     }
 
+    // images du grid enlever pour s'adapter a la maquette du responsive qui a été faite
+
     .display-chambres img {
         display: none;
     }
 
+    // lignes de reservations
 
     .p-chambre-1 {
         margin-left: 245%;
@@ -293,6 +308,8 @@
         display: none;
     }
 
+    // grid des images et description passer en flex pour s'adapter a la version mobile
+
     .grid-description {
         display: flex;
         flex-direction: column;
@@ -306,6 +323,8 @@
     .box-spa4 {
         margin-top: 5%;
     }
+
+    // grid des options passer en flex pour s'adapter a la version mobile
 
     .grid-options {
         display: flex;
@@ -345,6 +364,8 @@
         margin-left: -5%;
         
     }
+
+    // footer
 
     .demaquation {
         display: flex;
