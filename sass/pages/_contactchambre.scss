@@ -18,14 +18,9 @@
         background-color: transparent;
         color: white;
         margin: 10px;
-        
-        
         }
     
-    #message{
-    background-color: transparent;
-    font-size: 100%;
-    }
+   
     
     #envoyer{
     background-color: #ab8a62;
@@ -90,6 +85,8 @@
         align-items: center;
         text-align: center;
         
-        }    
+        }  
+        
+        textarea{width:60%;}
 
     }
