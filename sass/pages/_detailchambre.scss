@@ -12,6 +12,7 @@
      font-family: "Barlow Condensed", sans-serif;
      font-weight: 500;
      font-style: normal;
+     letter-spacing: 3px;
   }
 
   .logoochambre {
@@ -21,8 +22,8 @@
 
 .logochambre {
   position: absolute;
-  top: 5vw;
-  left: 50%; 
+  top: 22.5vw;
+  left: 59%; 
   transform: translateX(-50%);
   text-align: center; 
 }
@@ -45,6 +46,7 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 8px;
+    
 }
 
 .chambredeluxeh1 {
@@ -53,7 +55,9 @@
   font-weight: 100;
   font-style: normal;
   letter-spacing: 20px;
-  font-size: 6vw;
+  font-size: 4vw;
+  margin: 0;
+ 
 }
 
 
@@ -97,24 +101,10 @@
   right: 10px;
 }
 .spanchambre1 {
-  padding-right: 113px;
+  margin-right: 243px;
   
 }
-.spanchambre2 {
-  padding-right: 57px;
-}
-.spanchambre3 {
-  padding-right: 167px;
-}
-.spanchambre4 {
-  padding-right: 22px;
-}
-.spanchambre5 {
-  padding-right: 78px;
-}
- .spanchambre6 {
-  padding-right: 47px;
-}
+
 .Aménagementschambre li {
 padding-bottom: 11px;
 }
