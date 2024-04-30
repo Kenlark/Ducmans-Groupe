@@ -14,7 +14,7 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
-        width: 100%; 
+        width: 430px; 
         position: fixed; 
         top: 0;
         left: 0; 
@@ -45,7 +45,7 @@
     .menu {
         list-style-type: none;
         padding: 0;
-        margin-left: 29%;
+        margin-left: 24%;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease, flex-direction 0.3s ease;
@@ -74,14 +74,6 @@
     
     .menu.active .menu-item {
         opacity: 1;
-    }
-
-    .slide {
-        display: none;
-    }
-    
-    .slide.active {
-        display: block;
     }
 
     .carousel {
@@ -247,7 +239,7 @@
         margin-left: -70%;
         font-size: 13px;
     }
-.p-chambre-junior-3 {
+    .p-chambre-junior-3 {
         position: absolute;
         margin-top: 18%;
         margin-left: -39%;
@@ -366,7 +358,7 @@
     }
 
     .contact {
-        margin-top: 0%;
+        margin-top: 10%;
         margin-left: 30%;
     }
 
