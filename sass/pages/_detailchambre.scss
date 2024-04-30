@@ -1,215 +1,234 @@
 
 
-  .photelchambre {
-    color: #FDFDFD;
-  }
-  .buttonchambre{
-     background-color: #383838;
-     border: none;
-     color: #FDFDFD;
-     width: 200px;
-     height: 35px;
-     font-family: "Barlow Condensed", sans-serif;
-     font-weight: 500;
-     font-style: normal;
-     letter-spacing: 3px;
-  }
+.photelchambre {
+  color: #FDFDFD;
+}
+.buttonchambre{
+   background-color: #383838;
+   border: none;
+   color: #FDFDFD;
+   width: 200px;
+   height: 35px;
+   font-family: "Barlow Condensed", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   letter-spacing: 3px;
+}
 
-  .logoochambre {
-    position: relative;
-    
+.logoochambre {
+  position: relative;
+  
 }
 
 .logochambre {
-  position: absolute;
-  top: 22.5vw;
-  left: 59%; 
-  transform: translateX(-50%);
-  text-align: center; 
+position: absolute;
+top: 22.5vw;
+left: 59%; 
+transform: translateX(-50%);
+text-align: center; 
 }
 
- .imagechambrebody {
-  width: 100%;
-  height: auto;
-  left: 50%;
- opacity: 0.7;
- clip-path: polygon(0 0, 100% 0, 100% 90%, 0 90%);
- text-align: center;
+.imagechambrebody {
+width: 100%;
+height: auto;
+left: 50%;
+opacity: 0.7;
+clip-path: polygon(0 0, 100% 0, 100% 90%, 0 90%);
+text-align: center;
 
- }
+}
 
 
 .logochambreABCDE{
-  width: 25px;
+width: 25px;
 }
 .photelchambre {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 8px;
-    
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 8px;
+  
 }
 
 .chambredeluxeh1 {
-  color: #FDFDFD;
-  font-family: "Gilda Display", serif;
-  font-weight: 100;
-  font-style: normal;
-  letter-spacing: 20px;
-  font-size: 4vw;
-  margin: 0;
- 
+color: #FDFDFD;
+font-family: "Gilda Display", serif;
+font-weight: 100;
+font-style: normal;
+letter-spacing: 20px;
+font-size: 4vw;
+margin: 0;
+
 }
 
 
 .chambredeluxetitre{
-  color: #FDFDFD;
- font-family: "Gilda Display", serif;
-  font-weight: 100;
-  font-style: normal;
+color: #FDFDFD;
+font-family: "Gilda Display", serif;
+font-weight: 100;
+font-style: normal;
 }
 
 .DUCSMANh5 {
-  color: #BB8B49;
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+color: #BB8B49;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 /*amenagments et logo amenagments*/
 
 .Aménagementsh3 {
-  color: #FDFDFD;
-  font-family: "Gilda Display", serif;
-  font-weight: 100;
-  font-style: normal;
-  margin-right: 300px;
-  position: relative;
+color: #FDFDFD;
+font-family: "Gilda Display", serif;
+font-weight: 100;
+font-style: normal;
+margin-right: 300px;
+position: relative;
 }
 .Aménagementschambre {
- list-style-type: none;
- color: #787878;
- font-family: "Barlow", sans-serif;
- font-weight: 600;
- font-style: normal;
- font-size: 15px;
- margin-top: 60px;
+list-style-type: none;
+color: #787878;
+font-family: "Barlow", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 15px;
+margin-top: 60px;
 
 }
 
 .Aménagementschambre, .Aménagementsh3 {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+position: absolute;
+top: 10px;
+right: 10px;
 }
 .spanchambre1 {
-  margin-right: 243px;
-  
+margin-right: 243px;
+
 }
 
 .Aménagementschambre li {
 padding-bottom: 11px;
 }
 .logochambre1 {   
-  margin-right: 20px;
+margin-right: 20px;
+width: 25px;
+}
+.logochambre2 { 
+  margin-right: 20px;   
+  width: 25px;
+ }
+
+.logochambre3 {  
+  margin-right: 20px;   
   width: 25px;
 }
- .logochambre2 { 
-    margin-right: 20px;   
-    width: 25px;
-   }
 
-  .logochambre3 {  
-    margin-right: 20px;   
-    width: 25px;
-  }
+.logochambre4 {   
+  margin-right: 20px;   
+  width: 25px;
+ } 
 
-  .logochambre4 {   
-    margin-right: 20px;   
-    width: 25px;
-   } 
+.logochambre5 {  
+ margin-right: 20px;
+ width: 25px;
+ }  
 
-  .logochambre5 {  
-   margin-right: 20px;
-   width: 25px;
-   }  
-
-  .logochambre6 {   
-    margin-right: 10px;   
-    width: 35px; 
-  } 
+.logochambre6 {   
+  margin-right: 10px;   
+  width: 35px; 
+} 
 /*PARAGRAPHE*/
 .textepchambre, .instructionchambre, .Animauxchambre, .enfantchambre {
-  color: #787878;
-  font-family: "Barlow", sans-serif;
-  font-weight: 450;
-  font-style: normal;
-  font-size: 15px;
+color: #787878;
+font-family: "Barlow", sans-serif;
+font-weight: 450;
+font-style: normal;
+font-size: 15px;
 }
 
-  /*H3*/
+/*H3*/
 .inchambre, .instcheckh3, .compagniechambreh3, .bébéchambreh3, .outchambre {
-  color: #FDFDFD;
-  font-family: "Gilda display", serif;
-  font-weight: 500;
-  font-style: normal;
+color: #FDFDFD;
+font-family: "Gilda display", serif;
+font-weight: 500;
+font-style: normal;
 }
 
 /*checkin et checkout*/
 
 .logodivchambre img {
-  width: 30px;
- 
+width: 30px;
+
 }
 .logodivchambre2 img {
-  width: 30px;
-  
+width: 30px;
+
 }
 .checkinul {
-  color: #787878;
-  list-style-type: none;
+color: #787878;
+list-style-type: none;
 }
 .checkoutul {
-  color: #787878;
-  list-style-type: none;
+color: #787878;
+list-style-type: none;
 }
 .checkoutul {
-  margin-left: 20px; 
+margin-left: 20px; 
 }
 /*balise section*/
 .movechambre ul {
-  display: inline-block;
+display: inline-block;
 }
 
 .movechambre {
-  position: relative;
-  margin-top: -50px;
-  margin-left: 20%;
+position: relative;
+margin-top: -50px;
+margin-left: 20%;
 }
 .checkinul li,
 .checkoutul li {
-  color: #787878;
-  font-family: "Barlow", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-    font-size: 16px;
-  
+color: #787878;
+font-family: "Barlow", sans-serif;
+font-weight: 500;
+font-style: normal;
+  font-size: 16px;
+
 }
 
 /*responsive*/
 
 @media screen and (max-width: 768px) {
-  body {
-      font-size: 16px;
-  }
-  .movechambre {
-      width: 100%;
-  }
-  .Aménagementsh3,
-  .Aménagementschambre {
-    position: relative;
-    width: auto;
-    margin-top: 20px;
-    margin-right: auto;
-   
-  }
+body {
+    font-size: 16px;
+}
+.movechambre {
+   position: absolute;
+   top: 35%;
+ 
+
+}
+.Aménagementsh3,
+.Aménagementschambre {
+  position: relative;
+  width: auto;
+  margin-top: 20px;
+  margin-right: auto;
+ 
+}
+.logoochambre {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.footerchambre {
+  position: absolute;
+   top: 178%;
+}
+.logochambre {
+  transform: translateY(-30%);
+  transform: translateX(-50%);
+  font-size: 35%;
+  top: 20%;
+}
+
 }
