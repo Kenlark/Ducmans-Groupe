@@ -1,124 +1,178 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="sass/main.css">
-    <script src="https://kit.fontawesome.com/6ab0564c66.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="sass/main.css" />
+    <script
+      src="https://kit.fontawesome.com/6ab0564c66.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
-<nav>
-    <div class="sidebar">
+  <body>
+    <nav>
+      <div class="sidebar">
         <div class="marge-sidebar">
-            <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;"></i>
-            <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;"></i>
-            <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;"></i>
-            <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;"></i>
-            <i class="fa-solid fa-star fa-2xs" style="color: #daaa30;"></i>
-            <div class="marge-ducmans"> <p class="font-ducmans"> DUCSMAN </p> </div>
-            <div class="p-dormez"> <p>  DORMEZ COMME JAMAIS  </p> </div>
+          <i class="fa-solid fa-star fa-2xs" style="color: #daaa30"></i>
+          <i class="fa-solid fa-star fa-2xs" style="color: #daaa30"></i>
+          <i class="fa-solid fa-star fa-2xs" style="color: #daaa30"></i>
+          <i class="fa-solid fa-star fa-2xs" style="color: #daaa30"></i>
+          <i class="fa-solid fa-star fa-2xs" style="color: #daaa30"></i>
+          <div class="marge-ducmans"><p class="font-ducmans">DUCSMAN</p></div>
+          <div class="p-dormez"><p>DORMEZ COMME JAMAIS</p></div>
         </div>
-        
-            <div class="marge-sidebar-2"> <a href="Acceuil.html"> <p class="font1"> ACCUEIL </p> </a>
-                <a href=""> <p class="font1">A PROPOS </p>  </a>
-                <a href="detailschambre.html"> <p class="font1"> CHAMBRES & SUITES </p>  </a>
-                <a href=""> <p class="font1"> RESTAURANT </p>  </a>
-                <a href=""> <p class="font1"> CENTRE DE BIEN-ÊTRE </p>  </a>
-                <a href=""> <p class="font1"> ACTUALITÉ</p>  </a>
-                <a href="contact.html"> <p class="font1"> CONTACT </p>  </a>
-            </div>        
-            <div>
-                <div class="info-tel"> <p class="font-info">  Informations & Réservations </p> </div>
-                <div class="numero"> <p class="font-tel"> 03 20 01 02 03  </p> </div>
-                <div class="icone-tel"> <i class="fa-solid fa-phone-volume fa-xl" style="color: #AA8453;"></i> </div>
-            </div>  
-        
+
+        <div class="marge-sidebar-2">
+          <a href="index.html"> <p class="font1">ACCUEIL</p> </a>
+          <a href=""> <p class="font1">A PROPOS</p> </a>
+          <a href="detailschambre.html">
+            <p class="font1">CHAMBRES & SUITES</p>
+          </a>
+          <a href=""> <p class="font1">RESTAURANT</p> </a>
+          <a href=""> <p class="font1">CENTRE DE BIEN-ÊTRE</p> </a>
+          <a href=""> <p class="font1">ACTUALITÉ</p> </a>
+          <a href="contact.html"> <p class="font1">CONTACT</p> </a>
+        </div>
+        <div>
+          <div class="info-tel">
+            <p class="font-info">Informations & Réservations</p>
+          </div>
+          <div class="numero"><p class="font-tel">03 20 01 02 03</p></div>
+          <div class="icone-tel">
+            <i
+              class="fa-solid fa-phone-volume fa-xl"
+              style="color: #aa8453"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="margincontact">
+      <div id="mise-en-page">
+        <div class="duscman">
+          <h1 class="titre">Duscman</h1>
+
+          <p class="phrase">
+            Nous sommes à votre disposition pour toute question relative à votre
+            séjour ou pour vous préparer le plus luxueux des voyages.
+          </p>
+          <br />
+          <br /><br />
+
+          <div class="logo">
+            <figure><i class="fa-solid fa-phone-volume fa-lg"></i></figure>
+            <p class="phrase">
+              Informations & Réservation<br /><span class="J-contact"
+                >0320010203</span
+              >
+            </p>
+            <br />
+            <br />
+            <figure><i class="fa-regular fa-envelope fa-lg"></i></figure>
+            <p class="phrase">
+              E-mail<br />
+              <span class="mail">info@ducsman-group.com</span>
+            </p>
+            <br />
+            <br />
+            <figure><i class="fa-solid fa-location-dot fa-lg"></i></figure>
+            <p class="phrase">
+              Adresse<br />23 Avenue des Nations Unies <br />75001 Paris
+            </p>
+            <br />
+            <br />
+          </div>
+        </div>
+
+        <div class="formulaire">
+          <h1 class="titre">Restons en Contact</h1>
+          <br />
+          <br />
+          <form>
+            <input type="text" class="mot" placeholder="Votre Nom*" />
+            <input type="text" class="mot" placeholder="Votre E-mail*" /><br />
+            <br />
+            <input
+              type="text"
+              class="mot"
+              placeholder="Votre numéro de téléphone*"
+            />
+            <input type="text" class="mot" placeholder="Sujet*" /><br />
+            <br />
+            <textarea
+              id="message"
+              cols="50"
+              rows="10"
+              placeholder="Message*"
+            ></textarea
+            ><br />
+            <br />
+            <input type="submit" id="envoyer" value="Envoyer" /><br />
+          </form>
+          <br />
+        </div>
+      </div>
+
+      <div class="maps">
+        <iframe
+          width="1200"
+          height="450"
+          style="border: 0; filter: grayscale(100%)"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835382179066!2d2.2889342767561427!3d48.8613494004978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1713953319359!5m2!1sfr!2sfr"
+        ></iframe>
+      </div>
     </div>
 
-</nav>
+    <footer>
+      <section class="demaquation">
+        <div class="a_propos">
+          <h2>A propos de notre hôtel</h2>
+          <p>
+            Le seul hôtel 5 étoiles de Paris.Elementum sesue the aucan ivestan
+            aliquam into the sapiem retrum.<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum enim
+            veritatis blanditiis perspiciatis corrupti dolorem sapiente
+            praesentium provident porro eum sit, hic error eaque rem officiis
+            nam beatae quia facilis!
+          </p>
+        </div>
 
+        <div class="contact">
+          <h2>contact</h2>
+          <p>23 avenue des nation unis <br />75001 Paris</p>
 
+          <i class="fa-solid fa-phone-volume"> 03 20 01 02 03</i>
+          <a href="#" target="_blank"><p id="email">info@ducsman.com</p></a>
 
-<div class="margincontact">
-<div id="mise-en-page">
-<div class="duscman">
-<h1 class="titre">Duscman</h1>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/?lang=fr" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a href="https://www.facebook.com/login/" target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.pinterest.fr/#top" target="_blank"
+            ><i class="fa-brands fa-pinterest-p"></i
+          ></a>
+        </div>
+      </section>
 
-<p class="phrase">Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer le plus luxueux des voyages.</p><br>
-<br><br>
-
-<div class="logo">
-<figure><i class="fa-solid fa-phone-volume fa-lg"></i></figure><p class="phrase">Informations & Réservation<br><span class="J-contact">0320010203</span></p><br>
-<br>
-<figure><i class="fa-regular fa-envelope fa-lg"></i></figure><p class="phrase">E-mail<br> <span class="mail">info@ducsman-group.com</span></p><br>
-<br>
-<figure><i class="fa-solid fa-location-dot fa-lg"></i></figure><p class="phrase">Adresse<br>23 Avenue des Nations Unies <br>75001 Paris</p><br>
-<br>
-</div>
-</div>
-
-<div class="formulaire">
-<h1 class="titre">Restons en Contact</h1><br>
-<br>
-<form>
-<input type="text" class="mot" placeholder="Votre Nom*">
-<input type="text" class="mot" placeholder="Votre E-mail*"><br>
-<br>
-<input type="text" class="mot" placeholder="Votre numéro de téléphone*">
-<input type="text" class="mot" placeholder="Sujet*"><br>
-<br>
-<textarea id="message" cols="50" rows="10" placeholder="Message*"></textarea><br>
-<br>
-<input type="submit" id="envoyer" value="Envoyer"><br>
-</form>
-<br>
-
-</div>
-</div>
-
-
-<div class="maps">
-<iframe width="1200" height="450" style="border:0;filter: grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835382179066!2d2.2889342767561427!3d48.8613494004978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1713953319359!5m2!1sfr!2sfr"></iframe>
-
-</div>
-</div>
-
-
-
-<footer>
-    <section class="demaquation">
-
-    <div class="a_propos">
-        <h2>A propos de notre hôtel</h2>
-        <p>Le seul hôtel 5 étoiles de Paris.Elementum sesue the aucan ivestan aliquam into the sapiem retrum.<br> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Illum enim veritatis blanditiis perspiciatis corrupti 
-            dolorem sapiente praesentium provident porro eum sit, 
-            hic error eaque rem officiis nam beatae quia facilis!</p>
-    </div>
-
-    <div class="contact">
-    <h2>contact</h2>
-    <p>23 avenue des nation unis <br>75001 Paris</p>
-    
-
-        <i class="fa-solid fa-phone-volume"> 03 20 01 02 03</i>
-        <a href="#" target="_blank"><p id="email">info@ducsman.com</p></a>
-
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://twitter.com/?lang=fr" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.pinterest.fr/#top" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
-    </div>
-
-    </section>
-
-    <P class="mentions_legals">Mentions légales - Conditions Générals de Ventes - Politique de confidentialité - <span class="Copyright"> © Copyright 2023 - Ducsman Group</span></P>
-
-</footer>
-</body>
+      <p class="mentions_legals">
+        Mentions légales - Conditions Générals de Ventes - Politique de
+        confidentialité -
+        <span class="Copyright"> © Copyright 2023 - Ducsman Group</span>
+      </p>
+    </footer>
+  </body>
 </html>
